@@ -1,0 +1,9 @@
+.card{
+    margin: 6px 10px;
+    border-radius: 20px;
+    width: auto;
+}
+.txtcountry{
+    font-size: larger;
+    text-align: left;
+}

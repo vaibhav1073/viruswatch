@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins:ital,wght@0,300;0,400;0,900;1,400&family=Roboto&display=swap');
+*{
+  font-family: 'Merriweather', serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+   
+}
+
+.logo{
+    width: 240px;
+    height: 60px;
+    margin-right: 20px;
+}
+.fonttext{
+    font-size: 20px;
+}
+.title{
+    text-align: center;
+    letter-spacing: 4px;
+    color: rgb(6, 6, 143);
+    font-weight: bold;
+}
+
+.dash{
+    font-size: larger;
+    margin-top: 2px;
+}

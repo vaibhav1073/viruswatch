@@ -1,0 +1,58 @@
+.card-body{
+    border-radius: 20px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    padding-top: 18px;
+}
+
+.card{
+    margin: 6px 10px;
+    border-radius: 20px;
+}
+.num{
+    font-size: larger;
+}
+.blink {
+    animation: blinker 1.5s linear infinite;
+    color: red;
+    font-family: sans-serif;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+.icon{
+    margin-left: 10px;
+}
+.bg-green{
+    color: #015b25;
+    background: linear-gradient(to bottom, #9ae69c 0%, #9ce999 5%, #9cea9e 6%, #9cea9e 6%, #a0e99a 10%, #a3eb95 24%, #adee92 36%, #adee90 40%, #b3ef8f 45%, #b0f08f 46%, #b4f18a 50%, #b7f18d 51%, #b6f08a 53%, #baf18b 58%, #c4f780 77%, #c9f681 86%, #ccfa7e 90%, #cbf77c 94%, #cff87e 96%, #cff87e 100%);
+}
+.bg-blue{
+    color: blue;
+    background: linear-gradient(to bottom, #a5c9fd 0%, #a5c9fd 6%, #a7cbff 8%, #a5c9fd 11%, #a7cbff 11%, #aacffc 28%, #b0d5ff 44%, #b0d6fb 48%, #b5dbff 62%, #b4dbfc 62%, #b8dffe 75%, #bae2fb 79%, #bce4fe 91%, #bde6fa 96%, #bee7fd 100%);
+}
+.text{
+    font-weight: bold;
+}
+.bg-red{
+    color: #ee4a44;
+    background: linear-gradient(to bottom, #ff8582 0%, #fe8685 16%, #ff908e 44%, #fe908f 53%, #ff9692 62%, #ff9597 67%, #ff9a98 84%, #ff9b9b 85%, #fe9c9d 91%, #ff9e98 96%, #ff9d9c 96%, #ff9e9d 100%);
+}
+.text-para{
+    text-align: left;
+    margin-top: 50px;
+    font-size: larger;
+  
+}
+.maintag{
+    text-align: left;
+    font-weight: bold;
+}
+.one{
+    color:#015b25;
+    font-weight: bold;
+}
+.theads{
+    background-color: #a0e99a;
+}
